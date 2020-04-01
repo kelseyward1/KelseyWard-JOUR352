@@ -1,0 +1,73 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+  align-content: center;
+}
+
+.banner{
+  width: 900px
+  margin: 0 auto;
+  align-content: center;
+}
+h1 {
+  font: helvetica, sans-serif;
+  font-size: 36pt;
+  margin: 0 auto;
+}
+
+h2 {
+  font: helvetica;
+  font-size: 14pt;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+h3 {
+  font: helvetica;
+  font-size: 14pt;
+  font-style: oblique;
+  margin: 0 auto;
+}
+
+li {
+  font: helvetica;
+  font-size: 14pt;
+  margin: 0 auto;
+  color: red;
+}
+
+#link{
+  color: black;
+}
+
+p {
+  font: georgia, serif;
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+blockquote {
+  font: georgia;
+  font-size: 20pt;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 50px;
+  padding-right: 15px;
+  border-right: 5px solid red;
+}
+
+#caption {
+  width: 600px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#image {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  align-content: center;
+}
