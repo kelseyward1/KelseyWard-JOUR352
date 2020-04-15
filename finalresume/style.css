@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #dddddd;
+  background-color: white;
   margin:0 auto;
   width: 900px;
   font-family: helvetica, sans-serif;
@@ -16,7 +16,7 @@ body {
 
 
 #button1 {
-  background-color: white;
+  background-color: #dddddd;
   border: 2px solid #798e5d;
   color: black;
   padding: 15px 32px;
@@ -26,11 +26,11 @@ body {
   font-size: 16px;
   width: 33%;
   float: left;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #button2 {
-  background-color: white;
+  background-color: #ddd;
   border: 2px solid #798e5d;
   color: black;
   padding: 15px 32px;
@@ -40,12 +40,12 @@ body {
   font-size: 16px;
   width: 33%;
   float: left;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 
 #button3 {
-  background-color: white;
+  background-color: #dddddd;
   border: 2px solid #798e5d;
   color: black;
   padding: 15px 32px;
@@ -55,13 +55,15 @@ body {
   font-size: 16px;
   width: 34%;
   float: right;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 h1{
   padding-top: 10px;
+  margin-top: 10px;
   margin-left: 15px;
   height: 20px;
+
 }
 
 #photo{
@@ -78,72 +80,76 @@ h1{
 }
 
 .list-group-item{
-    background-color: white;
-    border: 2px solid #798e5d;
-    border-radius: 8px;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    font-size: 16px;
-    width: 60%;
+    color: black;
     padding-bottom: 5px;
+    padding-top:10px;
     display: block;
-    margin-right: 250px;
-    padding-right: 40px;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    vertical-align:middle;
   }
 
 .list-group{
   float: right;
-  padding-right: none;
-  padding-bottom: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-right:350px;
+}
+
+.text{
+  text-decoration: none;
+  color:black;
 }
 
 #job{
   font-style: italic;
   font-size: 24px;
   margin-left: 15px;
+  margin-top: 55px;
+  text-decoration: none;
+  color: black;
 }
 
 h2 {
   background-color: #798e5d;
   color: white;
-  padding-top: 5px;
-  padding-left: 5px;
-  border-style: inset;
+  padding-top: 7px;
+  padding-left: 7px;
 }
 
 #chair {
-  border-style: inset;
+  border-bottom-style: double;
   padding-left: 5px;
 }
 
 #office {
-  border-style: inset;
+  border-bottom-style: double;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 #sales {
-  border-style: inset;
   padding-left: 5px;
-
 }
 
 #school {
-  border-style: inset;
   padding: 5px;
 }
 
 
-
 #skills {
   list-style-type: circle;
-  border-style: inset;
   padding-left: 5px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   list-style-position: inside;
+}
+
+footer{
+  border-top-style: double;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#email{
+  padding-right: 5px;
 }
