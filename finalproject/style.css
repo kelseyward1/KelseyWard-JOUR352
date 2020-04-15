@@ -1,0 +1,82 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+body {
+  background-color: white;
+  margin:0 auto;
+  width: 900px;
+  font-family: helvetica, sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+h1{
+  text-align: center;
+  font-size: 54pt;
+}
+
+h3{
+  text-align: center;
+  font-size: 16pt;
+  text-decoration: underline;
+}
+
+h2{
+  font-size:32pt;
+}
+
+#tree{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+
+#caption{
+  margin-left:100px;
+  padding-left:100px;
+}
+
+.columns{
+  column-count: 3;
+  column-gap: 40px;
+  text-align: center;
+  column-fill: auto;
+
+}
+
+
+
+footer{
+  background-color: gray;
+  padding: 25px;
+  text-align: center;
+  margin-top: 10px;
+
+}
